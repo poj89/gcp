@@ -2,7 +2,7 @@
 terraform {
   required_providers {
     gcp = {
-      # source  = "local/poj89/gcp"
+      source  = "local/poj89/gcp"
       version = "~> 1.0.1"
     }
   }
